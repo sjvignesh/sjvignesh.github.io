@@ -12,3 +12,7 @@ This is a portfolio website created by Vignesh using HTML, CSS, and JavaScript. 
  - About page with Vignesh's bio and skills.
  - Projects page showcasing Vignesh's projects with descriptions, screenshots, and links to GitHub repositories.
  - Contact page with a contact form.
+ 
+ **License**
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
