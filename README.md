@@ -1,6 +1,6 @@
 # My Portfolio  
 
-This is a portfolio website created by Vignesh using HTML, CSS, and JavaScript. This website showcases Vignesh's skills and projects. You can access the website here: https://sjvignesh.github.io
+This is a portfolio website created by me using HTML, CSS, and JavaScript. This website showcases Vignesh's skills and projects. You can access the website here: https://sjvignesh.github.io
 
 **Technologies Used**
  - HTML
@@ -10,7 +10,7 @@ This is a portfolio website created by Vignesh using HTML, CSS, and JavaScript. 
 **Features**
  - Home page with an introduction to Vignesh and links to his social media profiles.
  - About page with Vignesh's bio and skills.
- - Projects page showcasing Vignesh's projects with descriptions, screenshots, and links to GitHub repositories.
+ - Works page showcasing Vignesh's projects with descriptions, screenshots, and links to GitHub repositories.
  - Contact page with a contact form.
  
  **License**
