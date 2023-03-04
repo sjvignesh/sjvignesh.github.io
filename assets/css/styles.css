@@ -386,6 +386,13 @@ img {
   margin-left: auto;
 }
 
+.spancss{
+  color: #1034ff;
+  font-size: smaller;
+  font-weight: bold;
+  display: block;
+} 
+
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
