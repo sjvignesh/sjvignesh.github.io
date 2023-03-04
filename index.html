@@ -177,11 +177,12 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" placeholder="Leave a Message" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                    <form name="submit-to-google-sheet" class="contact__form">
+                        <input type="text"  name="Name" placeholder="Name" class="contact__input"  required>
+                        <input type="email" name="Email" placeholder="Email" class="contact__input" required>
+                        <textarea name="Message"  placeholder="Leave a Message" cols="0" rows="10" class="contact__input" required></textarea>
+                        <button type="submit" class="contact__button button">Submit</button>
+                        <span class="spancss" id = "msg"></span>
                     </form>
                 </div>
             </section>
