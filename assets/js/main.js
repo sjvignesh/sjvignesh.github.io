@@ -21,6 +21,23 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*==================== contact form ====================*/
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxbcX_6WCMaVCs-88537r9n1R6F1rxD-5f0Jh7PVYpt5c03ZxJhh4sQALHm3OiKoLi_7Q/exec'
+const form = document.forms['submit-to-google-sheet']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Thank you for your message"
+        setTimeout(function () {
+            msg.innerHTML =""
+        },3000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+
 /*--===== Auto typing =====--*/
 var typed = new Typed(".auto-type", {
     strings: ["Web Developer","Passionate Learner","Problem Solver"],
